@@ -1,8 +1,15 @@
 import React from 'react'
+import { FaLongArrowAltRight } from 'react-icons/fa'
+import Herosecion from '../components/UI/Herosecion'
+import About from './About'
 
 const Home = () => {
   return (
-  <h1>Home Page</h1>
+    <>
+      <Herosecion />
+      <About />
+    </>
+
   )
 }
 
